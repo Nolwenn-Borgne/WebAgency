@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="La WebAgency vous aide à réaliser tous vos projets. Elle propose des services dans les domaines de la conception, la réalisation et le référencement de votre site web." />
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/all.css" />
+		<link rel="shortcut icon" href="ico/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="57x57" href="ico/apple-touch-icon-57-precomposed.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+		<title>WebAgency - l'agence de tous vos projets !</title>
+	</head>
+	<body class="container">
+		<!-- Menu qui reste fixe avec le logo-->
+		<header class="main-header">
+       		<nav class="main-navigation">
+        	    <div class="nav-wrapper">
+                	<div class="logo">
+                    	<img src="images/logo.png" alt="Logo de la WebAgency"/>
+                	</div>
+                	<h1 class="main-title">WebAgency - l'agence de tous vos projets !</h1>
+                	<input id="menu-checkbox" type="checkbox" class="menu-checkbox" />
+                	<label for="menu-checkbox" class="menu-toggle"></label>
+                	<ul class="menu">
+                    	<li><a href="#accueil">Accueil</a></li>
+                     	<li><a href="#services">Services</a></li>
+                     	<li><a href="#portfolio">Portfolio</a></li>
+                     	<li><a href="#contact">Contact</a></li>
+                	</ul>
+            	</div> 
+        	</nav>
+   		</header>
+		
+		<!-- Contenu principal -->
+		<main>
+
+			<!-- Slider -->
+			<section class="welcome">
+				<span id="accueil"></span>
+				<div class="slider">
+					<p class="navigation-left"> <i class="fas fa-angle-left"></i></p>
+					<div class="slides">
+						<div class="slide"><img class="slide-image" src="images/slider/bg1.jpg" alt="Une petite fille les mains pleines de peinture" /></div>
+						<div class="slide"><img class="slide-image" src="images/slider/bg2.jpg" alt="Un petit garçon avec un mégaphone" /></div>
+					</div>					
+					<div class="navigation-right"><i class="fas fa-angle-right"></i></div>
+				</div>
+				<div class="welcoming">
+						<h2 class="carousel-title"><span class="WebAgency">WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS&nbsp;!</h2>
+						<p class="carousel-text">Vous avez un projet web&nbsp;? La WebAgency vous aide à le réaliser&nbsp;!</p> 
+						<a href="#services" class="button-info">Plus d'infos</a>
+				</div>				
+			</section>
+
+			<!-- Nos services -->
+			<section class="section services" >
+				<span id="services"></span>
+				<header class="section-header">
+					<h2 class="section-title">NOS SERVICES</h2>
+					<p class="text-section-header">Nous accompagnons nos clients dans la création et l'optimisation de leur présence numérique. Développez votre réseau et votre impact commercial&nbsp;!</p>
+				</header>
+				<article class="container-services">
+					<div class="image-services">
+						<img class="image-computer" src="images/main-feature.png" alt="Image d'un ordinateur" />
+					</div>
+					<ul class="list-services">	
+						<li class="item-services">
+							<div class="icon">
+								<i class="fas fa-chart-line"></i>
+							</div>
+							<div class="service">
+								<h3 class="service-title">UX design</h3>
+								<p class="service-text">Notre priorité est d'anticiper les attentes de vos visiteurs en créant un site répondant à vos objectifs.</p>
+							</div>
+						</li>
+					
+						<li class="item-services">
+							<div class="icon">
+								<i class="fas fa-cubes"></i>
+							</div>
+							
+							<div class="service">
+								<h3 class="service-title">UI design</h3>
+								<p class="service-text">Nous créons pour vous une interface agréable et pratique, facile à prendre en main avec une ergonomie innovante et cohérente.</p>
+							</div>
+						</li>
+						<li class="item-services">
+							<div class="icon">
+								<i class="fas fa-chart-pie"></i>
+							</div>
+							
+							<div class="service">
+								<h3 class="service-title">SEO</h3>
+								<p class="service-text">Prenez l’avantage sur vos concurrents avec un bon référencement en étant en tête de liste de vos moteurs de recherche.</p>
+							</div>
+						</li>
+					</ul>
+				</article>
+			</section>
+
+			<!-- Portfolio -->
+			<section class="section projets">
+				<span id="portfolio"></span>
+				<header  class="section-header">
+					<h2 class="section-title">NOS PROJETS</h2>
+					<p class="text-section-header">Ils nous ont fait confiance&nbsp;!</p>
+				</header>
+				<nav class="portfolio-nav">
+					<ul class="list-portfolio-nav">
+						<li><a class="item-portfolio-nav" href="#">All Works</a></li>
+						<li><a class="item-portfolio-nav" href="#">Creative</a></li>
+						<li><a class="item-portfolio-nav" href="#">Corporate</a></li>
+						<li><a class="item-portfolio-nav" href="#">Portfolio</a></li>
+					</ul>
+				</nav>
+				<ul class="portfolio_images">
+					<li class="portfolio_element">
+						<img src="images/portfolio/01.jpg" alt="Image du site Optique en folie" />
+						<div class="banner">
+							<h3 class="banner-title">Optique en folie</h3>
+							<p class="banner-text">Les lunettes improbables</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/02.jpg" alt="Image du site le lapin rose" />
+						<div class="banner">
+							<h3 class="banner-title">Le lapin rose</h3>
+							<p class="banner-text">Jeux, jouets et doudous</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/03.jpg" alt="Image di site Pompadour" />
+						<div class="banner">
+							<h3 class="banner-title">Pompadour</h3>
+							<p class="banner-text">Les chaussures qui ont du style&nbsp;!</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/04.jpg" alt="Image du site Project 3000" />
+						<div class="banner">
+							<h3 class="banner-title">Project 3000</h3>
+							<p class="banner-text">Constructeur de projets</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/05.jpg" alt="Image du site Shopping bag" />
+						<div class="banner">
+							<h3 class="banner-title">Shopping bag</h3>
+							<p class="banner-text">La folie des sacs</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/06.jpg" alt="Image du site la grande évasion" />
+						<div class="banner">
+							<h3 class="banner-title">La grande évasion</h3>
+							<p class="banner-text">Le voyage sur mesure</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/07.jpg" alt="Image du site Destination écriture" />
+						<div class="banner">
+							<h3 class="banner-title">Destination écriture</h3>
+							<p class="banner-text">L'univers du stylo</p>
+						</div>
+					</li>
+					<li class="portfolio_element">
+						<img src="images/portfolio/08.jpg" alt="Image du site Office Attitude" />
+						<div class="banner">
+							<h3 class="banner-title">Office Attitude</h3>
+							<p class="banner-text">Votre matériel de bureau</p>
+						</div>
+					</li>
+				</ul>			
+			</section>
+
+			<!-- Contact -->
+			<section class="section contact">
+				<span id="contact"></span>
+				<div class="container-contact">
+					<iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2624.2331692606676!2d2.350798!3d48.8728314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1574242907280!5m2!1sfr!2sfr"  allowfullscreen="">
+					</iframe>
+	  				<form method="post" action="#" class="form">
+            		    <h3 class="form-title">Contact Info</h3>
+            			<p class="form-adress"><span class="adress-title">WebAgency SAS</span><br/>25 rue d'Hauteville, 75010 Paris<br/><span class="text-decoration">Tel :</span> 01 02 03 04 05</p>
+              			<input class="field" type="text" name="name" placeholder="Name" required/>
+              			<input class="field" type="email" name="email" placeholder="Email" required/>
+              			<input class="field" type="text" name="subject"  placeholder="Subject" required/>
+               			<textarea class="field" name="message" placeholder="Message" required></textarea>
+               			<input type="submit" value="Send Message" class="send-button" />	
+           			</form>  
+       			 </div>
+
+			</section>
+		</main>
+	</body>
+</html>
+
